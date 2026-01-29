@@ -508,3 +508,127 @@ button[type="submit"]:hover { background: var(--accent); color: #fff; }
 #page2 .dot {
     background-color: #000; 
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        background: rgba(5, 5, 5, 0.95);
+        backdrop-filter: blur(10px);
+    }
+    
+    #nav-links {
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #nav-links a {
+        margin-left: 0;
+        font-size: 0.75rem;
+    }
+
+    .hero-title {
+        font-size: 16vw;
+    }
+    
+    .hero-title.indent {
+        margin-left: 0;
+        -webkit-text-stroke: 0.5px #fff;
+    }
+    
+    #hero-footer {
+        flex-direction: column;
+        align-items: center;
+        bottom: 10vh;
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .con h1 {
+        font-size: 12vw;
+        margin-right: 20px;
+    }
+
+    .dot { 
+        margin-right: 20px; 
+    }
+
+    .container { 
+        padding: 0 20px; 
+    }
+    
+    .section-header h2 {
+        font-size: 12vw;
+        line-height: 1;
+    }
+    
+    .about-text p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    #stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .team-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .vertical-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .v-leaders {
+        text-align: left;
+        font-size: 0.9rem;
+        color: var(--text-dim);
+    }
+
+    .elem {
+        height: 100px;
+        padding: 0 20px;
+    }
+    
+    .elem h2 {
+        font-size: 8vw;
+    }
+
+    .form-header h1 { 
+        font-size: 12vw; 
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .input-data.full { 
+        margin-bottom: 20px; 
+    }
+
+    #fixed-image { 
+        display: none !important; 
+    }
+
+    #cursor { 
+        display: none !important; 
+    }
+}
+
+
