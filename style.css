@@ -493,4 +493,18 @@ button[type="submit"]:hover { background: var(--accent); color: #fff; }
     .section-header h2 { font-size: 8vw; }
     
     #fixed-image { display: none !important; }
+
+}
+
+#page2 {
+    background-color: var(--accent);
+    color: #000;
+}
+
+#page2 .con h1 {
+    color: #000; 
+}
+
+#page2 .dot {
+    background-color: #000; 
 }
